@@ -15,7 +15,7 @@ class Counter extends Component {
     render() {
         return(
         <div className="Counter">
-            <button onClick={this.increment}>+{this.props.by}</button>
+            <button onClick={this.increment}>+{this.props.by}</button>  
             <span className="count">{this.state.counter}</span>
         </div>           
         );
